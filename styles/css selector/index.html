@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        color: blue;
+        font-size: 20px;
+        border: 1px dotted gainsboro;
+        }
+        p{
+        color: red;
+        font-size: 30px;
+        }
+
+        #list {
+        color: green;
+        font-size: 25px;
+        background-color: lightgray;
+        }
+
+        .ullist {
+
+        color: purple;
+        font-size: 25px;
+        background-color: linen;
+        }
+
+        h1,h2,h3,p{
+            color: chartreuse;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #content h1,h2,h3,p{
+            color: rgb(22, 137, 157);
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div p{
+            color: rgb(255, 255, 0);
+            font-size: 20px;
+            background-color: blueviolet;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is CSS Selectors</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+<h1>This is unique list</h1>
+    <ul>
+        <li id="list">Item-1</li>
+        <li>Item-2</li>
+        <li>Item-3</li>
+        <li>Item-3</li>
+    </ul>
+    <hr>
+<h1>Below is not unique list</h1>
+
+     <ul class="ullist">
+        <li class="ullist">Item-1</li>
+        <li class="ullist"> Item-2</li>
+        <li class="ullist">Item-3</li>
+        <li class="ullist">Item-3</li>
+    </ul>
+     <ul class="ullist">
+        <li class="ullist">Item-1</li>
+        <li class="ullist">Item-2</li>
+        <li class="ullist">Item-3</li>
+        <li class="ullist">Item-3</li>
+    </ul>
+    <hr>
+    <div id="content">
+        <h1>This is Heading-1</h1>
+        <p>This is para</p>
+        <h2>This is Heading-2</h2>
+        <p>This is para2</p>
+        <h3>This is Heading-3</h3>
+    </div>
+<div>
+
+</div>
+
+
+</body>
+
+</html>
