@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 60%;
+            border: 1px solid gainsboro;
+            padding: 10px;
+            margin: auto;
+            background-color: yellow;
+            font-size: 20px;
+        }
+
+
+
+        .card-div {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .card-div div {
+            width: 100%;
+            border: 1px solid gainsboro;
+            padding: 10px;
+        }
+
+        @media screen and (min-width:200px) and (max-width:428px) {
+            .container {
+                background-color: cyan;
+                color: aliceblue;
+                font-size: 30px;
+            }
+
+            .card-div {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+            }
+
+            .card-div div {
+                width: 100%;
+
+            }
+        }
+
+        @media screen and (min-width:429px) and (max-width:768px) {
+            .container {
+                background-color: rgb(255, 0, 153);
+                color: aliceblue;
+                font-size: 25px;
+            }
+
+            .card-div {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                border: 1px solid green;
+                gap: 30px;
+
+            }
+
+            .card-div div {
+                width: 90%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit ab nam quidem esse delectus ea expedita
+        tenetur cum. Repudiandae explicabo officia corrupti tenetur ipsam placeat eaque quae? Officiis, vitae?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit ab nam quidem esse delectus ea expedita
+        tenetur cum. Repudiandae explicabo officia corrupti tenetur ipsam placeat eaque quae? Officiis, vitae
+    </div> -->
+    <div class="card-div">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
