@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            width: 100%;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .container div {
+
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 10px;
+            border-radius: 2px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* for mobile screen there should be 1 card per row */
+
+        @media screen and (min-width:200px) and (max-width:420px) {
+
+            .container {
+
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+
+            .container div {
+                font-size: 30px;
+                color: rgb(54, 20, 109);
+            }
+        }
+
+        /* for tablet screen there should be 2 card per row */
+        @media screen and (min-width:421px) and (max-width:768px) {
+            .container {
+
+                grid-template-columns: repeat(2, 1fr);
+
+            }
+
+            .container div {
+                font-size: 20px;
+                color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz34OmNVyIMh1rguNfXC3MBk7Qq3DTduJVVg&s"
+                alt="image">
+            <h3>Title:React logo</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Know More 👉</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
